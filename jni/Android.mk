@@ -20,6 +20,7 @@ LOCAL_SRC_FILES := \
         $(wildcard $(LOCAL_PATH)/src/MiniCL/MiniCLTask/*.cpp) \
         $(wildcard $(LOCAL_PATH)/src/BulletSoftBody/*.cpp) \
         $(wildcard $(LOCAL_PATH)/src/BulletDynamics/*.cpp) \
+        $(wildcard $(LOCAL_PATH)/src/BulletDynamics/Vehicle/*.cpp) \
         $(wildcard $(LOCAL_PATH)/src/BulletDynamics/Dynamics/*.cpp) \
         $(wildcard $(LOCAL_PATH)/src/BulletDynamics/ConstraintSolver/*.cpp) \
         $(wildcard $(LOCAL_PATH)/src/BulletDynamics/Character/*.cpp) \
